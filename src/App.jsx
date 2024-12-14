@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar/Sidebar"
 
 const App = () => {
   return (
-    <div className="inline-flex"> 
+    <div div className="flex min-h-[100vh]">
       <Sidebar />
       <Main />
     </div>
