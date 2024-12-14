@@ -5,7 +5,7 @@ const Sidebar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="min-h-[100vh] inline-flex flex-col justify-between bg-gray-200 ps-5 py-4">
+    <div className="min-h-[100vh] flex flex-col justify-between bg-gray-200 ps-5 py-4">
       <div>
         <img
           className="w-5 block ms-4 cursor-pointer"
