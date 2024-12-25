@@ -61,17 +61,19 @@ const Main = () => {
         <div className="absolute bottom-0 w-full max-w-[900px] py-0 px-5 m-auto">
           <div className="flex flex-row items-center justify-between gap-5 bg-gray-300 py-3 px-5 rounded-3xl">
             <input className="flex-1 bg-transparent outline-none" type="text" placeholder="Ask Gemini" />
-            <div className="flex">
+            <div className="flex gap-4">
               <img className="w-6 cursor-pointer" src={assets.gallery_icon} alt="" />
               <img className="w-6 cursor-pointer" src={assets.mic_icon} alt="" />
               <img className="w-6 cursor-pointer" src={assets.send_icon} alt="" />
             </div>
           </div>
-          <p>Gemini can make mistakes, so double-check it</p>
+          <p className="text-md m-4 text-center">Gemini can make mistakes, so double-check it</p>
         </div>
       </div>
     </div>
   );
 };
+
+
 
 export default Main;
